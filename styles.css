@@ -1,0 +1,125 @@
+body {
+    background-color: #000;
+
+}
+
+h1 {
+    color: #fff;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}
+
+.sidebar__navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    cursor: pointer;
+}
+
+.sidebar__navigation .logo {
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.sidebar .siderbar__my-lib {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px;
+    cursor: pointer;
+
+    margin-top: 8px;
+}
+
+.sidebar .siderbar__my-lib .my-lib__header {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0 0 16px 20px;
+
+    color: #b3b3b3;
+}
+
+.sidebar .siderbar__my-lib .my-lib__card-Fst-PlayList {
+    background-color: #232323;
+    border-radius: 8px;
+    padding: 16px 0 16px 16px;
+}
+
+.sidebar .siderbar__my-lib .my-lib__card-Fst-PlayList .card__text {
+    padding: 0 0 16px  ;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    color: #fff;
+}
+
+.sidebar .my-lib__card-Fst-PlayList .card__text .strong__text {
+    font-weight: 600;
+}
+
+.sidebar .my-lib__card-Fst-PlayList .card__button {
+    background-color: #fff;
+    display: inline-block;
+    padding: 16px;
+    border-radius: 24px;
+
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidebar .my-lib__lang-select {
+    border: 1px solid #fff;
+    border-radius: 24px;
+    padding: 8px 16px;
+    display: inline-block;
+
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.sidebar .siderbar__my-lib .cookies {
+    margin: 32px 0 32px 0;
+    font-family: "DM Sans", sans-serif;
+    font-size: 12px;
+    color: #b3b3b3;
+}
+
